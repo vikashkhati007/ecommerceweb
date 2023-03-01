@@ -1,0 +1,110 @@
+  @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+  * {
+      margin: 0;
+      padding: 0;
+  }
+
+  header {
+      background-color: #2874f0;
+      padding: 20px;
+      border: 2px solid rgb(4, 4, 4);
+      height: 25px;
+  }
+
+  header nav ul h1 {
+      display: flex;
+      color: white;
+      position: absolute;
+      left: 0;
+      padding: 0px 30px;
+      font-family: 'Tilt Warp', cursive;
+  }
+
+  header nav ul {
+      color: white;
+      display: flex;
+      list-style: none;
+      justify-content: flex-end;
+      align-items: center;
+  }
+
+  header nav ul li a {
+      text-decoration: none;
+      color: aliceblue;
+      display: flex;
+      padding-top: 5px;
+      padding: 0px 30px 0px 0px;
+      font-family: 'Rubik', sans-serif;
+  }
+
+  header nav ul li a:hover{
+    font-weight: bold;
+  }
+
+  header nav ul input {
+      border-radius: 1px;
+      border-style: solid;
+      border-color: #2C74B3;
+      position: relative;
+      right: 10vw;
+      width: 20vw;
+      height: 3vh;
+      text-align: start;
+      padding: 2px 4px;
+      text-decoration: none;
+  }
+
+  footer {
+      width: 100vw;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      background-color: #2874f0;
+      border: 2px solid rgb(8, 8, 8);
+      height: 12vh;
+
+  }
+
+  footer p {
+      color: aliceblue;
+      font-family: 'Rubik', sans-serif;
+
+  }
+
+  main {
+      border: 1px solid black;
+      background-color: #EAFDFC;
+      min-height: calc(100vh - 75px - 12vh);
+  }
+
+  main .container .card-items {
+      display: inline-block;
+      width: 200px;
+      background-color: rgb(255, 255, 255);
+      height: 200px;
+      border: 2px solid white;
+      border-radius: 20px;
+      margin: 10px 22px;
+      border: 2px solid black;
+      
+  }
+
+  main .container .card-items img{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 10px;
+
+  }
+
+  .slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+  }
+ 
