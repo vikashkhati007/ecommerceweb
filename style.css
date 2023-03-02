@@ -1,6 +1,7 @@
   @import url('https://fonts.googleapis.com/css2?family=Tilt+Warp&display=swap');
   @import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
-
+  @import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro&display=swap');
   * {
       margin: 0;
       padding: 0;
@@ -9,8 +10,9 @@
   header {
       background-color: #2874f0;
       padding: 20px;
-      border: 2px solid rgb(4, 4, 4);
       height: 25px;
+      border: 1px solid rgb(74, 155, 247);
+      
   }
 
   header nav ul h1 {
@@ -39,8 +41,9 @@
       font-family: 'Rubik', sans-serif;
   }
 
-  header nav ul li a:hover{
-    font-weight: bold;
+  /*https://source.unsplash.com/1200x300/?iphone*/
+  header nav ul li a:hover {
+      font-weight: bold;
   }
 
   header nav ul input {
@@ -49,11 +52,14 @@
       border-color: #2C74B3;
       position: relative;
       right: 10vw;
-      width: 20vw;
-      height: 3vh;
+      width: 25vw;
+      height: 4vh;
       text-align: start;
-      padding: 2px 4px;
+      padding: 2px 10px;
       text-decoration: none;
+      border-radius: 20px;
+      text-align: left;
+      border: solid 2px rgb(18, 130, 250);
   }
 
   footer {
@@ -62,7 +68,7 @@
       justify-content: center;
       align-items: center;
       background-color: #2874f0;
-      border: 2px solid rgb(8, 8, 8);
+      border: 0.5px solid rgb(66, 134, 202);
       height: 12vh;
 
   }
@@ -74,37 +80,70 @@
   }
 
   main {
-      border: 1px solid black;
+      border: 1px solid rgb(62, 144, 208);
       background-color: #EAFDFC;
       min-height: calc(100vh - 75px - 12vh);
+
+  }
+
+  main .container .firstcard {
+      background-color: #5d91c4;
+      border-radius: 20px;
+      margin: 20px 20px;
+      border: 1px solid rgb(0, 145, 255);
+
   }
 
   main .container .card-items {
       display: inline-block;
-      width: 200px;
+      width: 190px;
       background-color: rgb(255, 255, 255);
-      height: 200px;
-      border: 2px solid white;
+      height: 190px;
+      border: 2px solid rgb(173, 159, 159);
       border-radius: 20px;
-      margin: 10px 22px;
-      border: 2px solid black;
-      
-  }
+      margin: 10px 25px;
+      text-align: center;
 
-  main .container .card-items img{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
-    border-radius: 20px;
-    margin-top: 10px;
 
   }
 
-  .slider{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin: 0 auto;
+  main .container .firstcard h2 {
+      font-family: 'Kumbh Sans', sans-serif;
+      color: #EAFDFC;
+      display: flex;
+      justify-content: center;
+      padding: 20px 0px;
+      margin: 0;
   }
- 
+
+  main .container .card-items img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      border-radius: 20px;
+      margin-top: 10px;
+
+
+
+  }
+
+  .slider {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+      border-radius: 20px;
+      padding-top: 1px;
+
+  }
+
+  .card-items ul{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    list-style-type: none;
+    position: relative;
+    bottom: 20px;
+    box-sizing: border-box;
+    
+  }
+

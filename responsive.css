@@ -1,0 +1,120 @@
+@media only screen and (max-width: 1000px) and (min-width: 700px) {
+    .slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        border-radius: 20px;
+        padding-top: 1px;
+        width: 90vw;
+        height: 40vh;
+        padding-top: 2px;
+  
+    }
+    
+    main .container .card-items {
+        display: inline-block;
+        width: 20vw;
+        background-color: rgb(255, 255, 255);
+        height: 30vh;
+        border: 2px solid rgb(173, 159, 159);
+        border-radius: 20px;
+        margin: 10px 25px;
+    
+    
+    }
+    
+  main .container .card-items img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 15vw;
+    height: 20vh;
+
+
+}
+
+  }
+
+  @media only screen and (max-width: 700px) {
+    .slider {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 0 auto;
+        border-radius: 20px;
+        padding-top: 1px;
+        width: 90vw;
+        height: 25vh;
+        padding-top: 2px;
+  
+    }
+    main .container .card-items {
+        display: inline-block;
+        width: 150px;
+        background-color: rgb(255, 255, 255);
+        height: 150px;
+        border: 2px solid rgb(173, 159, 159);
+        border-radius: 20px;
+        margin: 10px 25px;
+       
+    }
+    
+  main .container .card-items img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border-radius: 20px;
+    margin-top: 10px;
+    width: 100px;
+    height: 100px;
+
+
+}
+
+
+header nav ul {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+}
+
+header {
+    background-color: #2874f0;
+    padding-bottom: 60px;
+    height: 25px;
+}
+
+header nav ul input {
+    border-radius: 1px;
+    border-style: solid;
+    border-color: #2C74B3;
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 30vw;
+    height: 3vh;
+    text-align: start;
+    padding: 2px 10px;
+    text-decoration: none;
+    margin-right: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+
+}
+
+header nav ul h1 {
+    display: flex;
+    color: white;
+    position: absolute;
+    top: 0;
+    padding: 30px 30px;
+    font-family: 'Tilt Warp', cursive;
+}
+
+  }
